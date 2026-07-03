@@ -5,21 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <style>
-    html {
-      max-width: 70ch;
-      padding: 3em 1em;
-      margin: auto;
-      font-size: 1.2em;
-      line-height: 1.75;
-      font-family: sans-serif;
-    }
-    h1, h2, h3 { line-height: 1.2; margin-top: 1.5em; }
-    a { color: #06c; }
-    @media (prefers-color-scheme: dark) {
-      html { background: #1a1a1a; color: #ddd; }
-      a { color: #6cf; }
-    }
-  </style>
+  html {
+    max-width: 70ch;
+    margin: auto;
+    padding: 3em 1em;
+    font-size: 1.2em;
+    line-height: 1.75;
+    font-family: sans-serif;
+    background: #FFF8E7;
+    color: #5c5647;  
+  }
+  h1, h2, h3 { line-height: 1.2; margin-top: 1.5em; color: #4a453a; }
+  a { color: #9c5b3f; }  
+
+  @media (prefers-color-scheme: dark) {
+    html { background: #1e1b16; color: #c9c3b3; }
+    h1, h2, h3 { color: #e6dfce; }
+    a { color: #d0a884; }
+  }
+</style>
 </head>
 <body>
   {{ content }}
