@@ -1,1 +1,7 @@
+title: Corin Simcock
+description: Personal blog
+plugins:
+  - jekyll-feed          # free RSS feed at /feed.xml
+permalink: /blog/:title/  # clean URLs like /blog/hello-world/
+# baseurl: "/repo-name"  
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    html {
+      max-width: 70ch;
+      padding: 3em 1em;
+      margin: auto;
+      font-size: 1.2em;
+      line-height: 1.75;
+      font-family: sans-serif;
+    }
+    h1, h2, h3 { line-height: 1.2; margin-top: 1.5em; }
+    a { color: #06c; }
+    @media (prefers-color-scheme: dark) {
+      html { background: #1a1a1a; color: #ddd; }
+      a { color: #6cf; }
+    }
+  </style>
+</head>
+<body>
+  {{ content }}
+  <footer style="margin-top:3em; font-size:0.9em;">
+    <a href="{{ '/' | relative_url }}">home</a>
+  </footer>
+</body>
+</html>
