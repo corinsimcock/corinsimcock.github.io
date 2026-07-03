@@ -13,7 +13,7 @@ I'm a medical student at the University of Otago. This blog is just a place for 
 {% for post in site.posts %}
   <li>
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a href="{{ post.url | relative_url }}" class="no-underline"
+    <a href="{{ post.url | relative_url }}"
 	>{{ post.title }}</a>
   </li>
 {% endfor %}

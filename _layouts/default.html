@@ -20,6 +20,7 @@
 
   ul.posts { list-style: none; padding: 0; }
   ul.posts li { margin-bottom: 0.5em; }
+  ul.posts a:hover { text-decoration: underline; }
   ul.posts .post-date {
     color: #9a9280;
     font-variant-numeric: tabular-nums;
@@ -37,7 +38,7 @@
 <body>
   {{ content }}
   <footer style="margin-top:3em; font-size:0.9em;">
-    <a href="{{ '/' | relative_url }}" class="no-underline"
+    <a href="{{ '/' | relative_url }}"
 	>home</a>
   </footer>
 </body>
