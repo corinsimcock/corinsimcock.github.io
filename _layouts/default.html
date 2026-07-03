@@ -13,15 +13,24 @@
     line-height: 1.75;
     font-family: sans-serif;
     background: #FFF8E7;
-    color: #5c5647;  
+    color: #5c5647;
   }
   h1, h2, h3 { line-height: 1.2; margin-top: 1.5em; color: #4a453a; }
-  a { color: #9c5b3f; }  
+  a { color: #9c5b3f; }
+
+  ul.posts { list-style: none; padding: 0; }
+  ul.posts li { margin-bottom: 0.5em; }
+  ul.posts .post-date {
+    color: #9a9280;
+    font-variant-numeric: tabular-nums;
+    margin-right: 0.6em;
+  }
 
   @media (prefers-color-scheme: dark) {
     html { background: #1e1b16; color: #c9c3b3; }
     h1, h2, h3 { color: #e6dfce; }
     a { color: #d0a884; }
+    ul.posts .post-date { color: #7d766a; }
   }
 </style>
 </head>
