@@ -1,2 +1,0 @@
-# corinsimcock.github.io
-Website
